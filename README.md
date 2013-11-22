@@ -1,7 +1,7 @@
-﻿README
+README
 
 
-The Mini Project has been done in MATLAB.
+The Project has been done in MATLAB.
 
 The project is divided into into 3 parts:
 
@@ -21,10 +21,12 @@ Then, the “yale.m” file operates on the files in the folder, “dataset_yale
 -> SMAIstudent_holdoneout.m : This file is for the hold-one-out validation method.
 
 IMAGE RECONSTRUCTION
+
 There is also a “democode_smai.m” code file, that has been trained on the SMAI Students dataset.It takes an input image and returns the label of the closest image, that is present in the trained dataset. The input image is also reconstructed using the Eigen Faces computed.
 The “democode_yale.m” code file is trained on the Yale Dataset.
 
 VERIFICATION
+
 There is a "verify_yale.m" code file which is trained on Yale dataset and is used for verification.
 There is a "verify_smai.m" code file which is trained on SMAI Students dataset and is used for verification.
 
